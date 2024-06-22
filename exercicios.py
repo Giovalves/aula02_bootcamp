@@ -23,4 +23,5 @@ resultado_4 = numero_4_1 // numero_4_2
 print(resultado_4)
 # 5) Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 numero_5_1 = int(input("Digite um numero: "))
-numero_5_2 = int(input("Digite um numero: "))
+resultado_5 = numero_5_1 ** 2
+print (resultado_5)
