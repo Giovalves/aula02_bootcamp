@@ -58,5 +58,60 @@ print(f"Exercicio 9: {celsius}°C é igual a {fahrenheit}°F")
 # 10) Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 raio_do_circulo = float(input("Digite o raio: "))
 area_do_circulo = math.pi * raio_do_circulo **2
-print (f"Exercicio 9:{area_do_circulo:.3f}")
+print (f"Exercicio 10:{area_do_circulo:.3f}")
 
+# Strings (str)
+
+# 11) Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+texto = input("Digite um texto: ")
+texto_maisculo = texto.upper()
+print("Ex. 11 = Texto em maiúsculo: ", texto_maisculo)
+
+# 12) Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+nome_usuario = input("Digite o seu nome completo: ")
+nome_minusculo = nome_usuario.lower()
+print("Ex.12 = Nome em minusculo é: ", nome_minusculo)
+
+# 13) Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+frase_1 = input("Escreva um frase: ")
+frase_sem_espaco = frase_1.strip()
+print("Ex.13 = Frase sem espaço no inicio e fim:", frase_sem_espaco)
+
+# 14) Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
+lista_de_dia_mes_ano = data_usuario.split("/")
+print(f"o elemento 1 do ex. 14 é o: {lista_de_dia_mes_ano[0]}")
+print(f"o elemento 1 do ex. 14 é o: {lista_de_dia_mes_ano[1]}")
+print(f"o elemento 1 do ex. 14 é o: {lista_de_dia_mes_ano[2]}")
+
+# 15) Escreva um programa que concatene duas strings fornecidas pelo usuário.
+palavra_1 = input("Digita um palavras: ")
+palavra_2 = input("Digita a segunda palavra")
+texto_concatene = palavra_1 + palavra_2
+print("Ex.15 =  Texto junto é", texto_concatene)
+
+#Booleanos (bool)
+# 16) Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+valor1 = input("Escreva a palavra True ou False: ")
+valor2 = input("Escreva a palavra True ou False: ")
+resultado_and = valor1 and valor2
+print("Ex. 16 Resultado and: ", resultado_and)
+
+# 17) Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+resultado_or = valor1 or valor2
+print("Ex.17 Resultado or: ", resultado_or)
+
+# 18) Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor
+valor_3 = input("Escreva um valor booleano: False/True: ")
+resultado_not = not valor_3
+print("Ex.18 resultado do valor not é", valor_3)
+
+# 19) Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+valor_4 = float(input("Valor: "))
+valor_5 = float(input("Valor: "))
+resultado_igualdade = valor_4 == valor_5
+print("Ex.19 =  Resultado da igualdade é:", resultado_igualdade)
+
+# 20) Escreva um programa que verifique se dois números f
+resultado_diferente = (valor_4 != valor_5)
+print("Ex. 20 o resultado da diferença é:", resultado_diferente)
